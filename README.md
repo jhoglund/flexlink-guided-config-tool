@@ -1,11 +1,11 @@
-# FlexLink Configuration Tool
+# FlexLink Guided Configuration Tool
 
-A comprehensive tool for extracting FlexLink component specifications from catalogs and building guided configuration systems.
+A comprehensive tool for extracting FlexLink component specifications from catalogs and building guided configuration systems. This project includes Python-based data extraction tools and will feature a Rails-based guided configuration interface.
 
 ## 🏗️ Project Structure
 
 ```
-flexlink-tool/
+flexlink-guided-configuration-tool/
 ├── data/                          # Extracted component data
 │   ├── large_catalog_extraction/  # Main catalog extraction results
 │   └── enhanced_components.json   # Components with application info
@@ -65,8 +65,8 @@ flexlink-tool/
 - **PyMuPDF/pdfplumber** - PDF processing
 
 **Planned:**
-- **Ruby on Rails** - Guided configuration tool
-- **PostgreSQL** - Component database
+- **Ruby on Rails** - Guided configuration tool (Primary focus)
+- **PostgreSQL** - Component database (via Supabase)
 - **React/Vue.js** - Frontend wizard interface
 - **Three.js** - 3D visualization
 
@@ -75,8 +75,8 @@ flexlink-tool/
 ### 1. Environment Setup
 ```bash
 # Clone repository
-git clone <your-repo-url>
-cd flexlink-tool
+git clone https://github.com/jhoglund/flexlink-guided-config-tool.git
+cd flexlink-guided-configuration-tool
 
 # Create virtual environment
 python3 -m venv venv
@@ -161,9 +161,9 @@ All extraction and upload processes support:
 - Ready for Rails integration
 
 **Next Steps:**
-1. Set up Rails application
+1. **Set up Rails application** (Primary focus)
 2. Connect to Supabase database
-3. Build wizard interface
+3. Build guided wizard interface
 4. Implement 3D visualization
 5. Add optimization algorithms
 
